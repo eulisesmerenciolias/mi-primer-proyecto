@@ -1,25 +1,9 @@
-# Cuba Ruta — primera versión administrativa
+CUBA RUTA — PILOTO PWA
 
-Prototipo web de una plataforma de contratación y administración de transporte de cargas.
+Incluye perfiles de demostración cliente, transportista y administrador; alta de solicitudes (contenedor, mudanza, agrícola, mercancía empresarial y carga general); ofertas; aceptación; chat asociado al viaje; alta local de vehículos; manifest PWA y service worker.
 
-## Ejecutar
-Abrir `index.html` en un navegador moderno. No requiere instalación ni servidor.
+Cuentas: admin@demo.cu / demo123; cliente@demo.cu / demo123; transportista@demo.cu / demo123.
 
-## Módulos incluidos
-- Resumen de operación.
-- Registro y edición de viajes: contenedores, mudanzas, carga agrícola, mercancías empresariales y carga general.
-- Registro de transportistas y modalidad de explotación del vehículo.
-- Clientes y vehículos.
-- Control administrativo de importes, pagos y referencias.
-- Parámetros manuales de tipo de cambio y comisión de referencia.
-- Exportación de respaldo JSON.
+PUBLICAR: GitHub > Settings > Pages > Deploy from a branch > main > /(root). Guardar. La web se servirá por HTTPS y podrá añadirse a la pantalla de inicio desde Chrome/Android.
 
-## Limitaciones importantes
-- Los datos se guardan en el almacenamiento local del navegador.
-- No hay autenticación real, roles, sincronización entre dispositivos ni base de datos central.
-- No se ejecutan cobros ni transferencias bancarias.
-- No se consulta automáticamente la tasa de elTOQUE; la tasa es manual hasta integrar una API autorizada.
-- Los datos iniciales son ficticios y sirven únicamente para demostrar el flujo.
-
-## Siguiente etapa técnica
-Implementar backend y base de datos, autenticación de administrador/operador, permisos, registro de auditoría, almacenamiento de comprobantes y despliegue web. Posteriormente evaluar integraciones de pagos con proveedores autorizados.
+LIMITACIONES: piloto local. Usuarios, contraseñas y mensajes se guardan solo en el navegador; no existe sincronización entre teléfonos ni autenticación segura. No introducir datos reales, documentos ni pagos. Para operación multiusuario se debe conectar backend central con autenticación, base de datos, permisos y chat en tiempo real. La publicación de Pages debe activarse en la configuración del repositorio.
