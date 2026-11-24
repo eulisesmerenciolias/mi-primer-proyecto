@@ -1,1 +1,18 @@
-{"name":"Cuba Ruta","short_name":"Cuba Ruta","start_url":"./","scope":"./","display":"standalone","background_color":"#f3f6f8","theme_color":"#10243a","description":"Conecta clientes y transportistas"}
+{
+  "name": "Cuba Ruta",
+  "short_name": "Cuba Ruta",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f6f8",
+  "theme_color": "#10243a",
+  "description": "Conecta clientes y transportistas",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
